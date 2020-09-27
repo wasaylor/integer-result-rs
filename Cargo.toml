@@ -7,6 +7,7 @@ description = "Convert primitive and non-zero integer types to a Result"
 readme = "README.md"
 repository = "https://github.com/wasaylor/integer-result-rs"
 keywords = ["no_std", "error", "result", "ffi"]
+license = "MIT"
 
 [features]
 non_zero_impl = []
