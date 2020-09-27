@@ -6,7 +6,7 @@ Using scalar types to indicate failure in Rust _is discouraged_, yet not uncommo
 
 Now you can write this 🧼
 
-```
+```rust
 use integer_result::Ext;
 
 unsafe { some_c_function() }
@@ -16,7 +16,7 @@ unsafe { some_c_function() }
 
 Rather than this 🤢
 
-```
+```rust
 let val = unsafe { some_c_function() };
 
 if val == 0 {
